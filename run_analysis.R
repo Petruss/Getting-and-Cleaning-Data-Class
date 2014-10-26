@@ -57,9 +57,8 @@ names(meanandsdev)<- gsub("[g][y][r][o]","gyroscope",names(meanandsdev))
 names(meanandsdev)<- gsub("[a][n][g][l][e]","anglebetween",names(meanandsdev))
 names(meanandsdev)<- gsub(" ","",names(meanandsdev))
 ##create a tidy data set with the average by participant and activity
-tidydata<- aggregate(meanandsdev[3:88], 
-                      by=meanandsdev[c("participant","activity")],
-                      FUN=mean)
+tidydata<- aggregate(meanandsdev[3:88], by=meanandsdev[c("participant","activity")], FUN=mean)
+tidydata
 
 
 
