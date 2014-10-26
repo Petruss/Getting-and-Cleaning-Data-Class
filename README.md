@@ -1,8 +1,6 @@
 ##Getting-and-Cleaning-Data-Class
 ===============================
-This Repo contains the Getting and Cleaning Data Class Project. The data used is the data on Human Activity Recognition database
-
-built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
+This Repo contains the Getting and Cleaning Data Class Project. The data used is the data on Human Activity Recognition database built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
 
 The raw data is contained in zip file with several text files representing  test & train data and supporting files 
 
